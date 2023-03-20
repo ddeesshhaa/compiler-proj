@@ -1,0 +1,20 @@
+public class Main {
+
+    public static void main(String[] args) {
+//block number 1
+        if (1) {
+//block number 2
+
+        }
+
+        else if (2) {
+//block number 3
+
+        }
+
+        else {
+//block number 4
+
+        }
+    }
+}
