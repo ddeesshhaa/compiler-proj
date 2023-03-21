@@ -11,9 +11,9 @@ public class Main {
         JavaLexer lexer = new JavaLexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         JavaParser parser = new JavaParser(tokens);
-        ParseTree tree = parser.compilationUnit();
-        ParseTreeWalker walker = new ParseTreeWalker();
-        TokenStreamRewriter rewriter = new TokenStreamRewriter(tokens);
+        ParseTree tree = parser.compilationUnit();      //first rule of grammer
+        ParseTreeWalker walker = new ParseTreeWalker(); //traverse on tree with listner
+        TokenStreamRewriter rewriter = new TokenStreamRewriter(tokens); //
         walker.walk(new listner1(rewriter), tree);
 
         File output = new File("output.txt");
@@ -21,7 +21,6 @@ public class Main {
         FileWriter w = new FileWriter("output.txt");
         w.write(rewriter.getText());
         w.close();
-        //System.out.println(rewriter.getText());
 
     }
 }
