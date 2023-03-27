@@ -1,11 +1,11 @@
-public class Main {
+public class code {
 
     public static void main(String[] args) {
-        if (1) {
+        if (true) {
 
         }
 
-        else if (2) {
+        else if (true) {
 
         }
 

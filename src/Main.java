@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String inputFile = "Code.java";
+        String inputFile = "code.java";
         FileInputStream inputStream = new FileInputStream(inputFile);
         ANTLRInputStream input = new ANTLRInputStream(inputStream);
         JavaLexer lexer = new JavaLexer(input);
