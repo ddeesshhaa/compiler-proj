@@ -27,4 +27,10 @@ public class listner1 extends JavaParserBaseListener{
 
 
     }
+
+    @Override public void enterCompilationUnit(JavaParser.CompilationUnitContext ctx) {
+        rewriter.insertBefore(ctx.getStart(),"import java.io.File;"+"\n");
+        rewriter.insertBefore(ctx.getStart(),"import java.io.FileWriter;"+"\n");
+        rewriter.insertBefore(ctx.getStart(),"import java.io.IOException;"+"\n");
+    }
 }
