@@ -1,4 +1,4 @@
-# compiler-proj
+# Compiler-project
 
 The Tree
  
