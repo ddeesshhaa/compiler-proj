@@ -20,6 +20,9 @@ public class listner1 extends JavaParserBaseListener{
             rewriter.insertAfter(ctx.getStart(),"\t"+"\t"+"w.write(\"block "+ this.i + " is Visited \" +\"\\n\");"  +"\n");
             rewriter.insertBefore(ctx.getStop(),"w.close();"+"\n");
         }
+        else{
+            rewriter.insertAfter(ctx.getStart(),"w.write(\"block "+ this.i + " is Visited\" +\"\\n\");"  +"\n");
+        }
         
 
     }
