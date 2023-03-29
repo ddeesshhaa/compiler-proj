@@ -8,15 +8,10 @@ public class code {
         }
         if (true) {
 
-<<<<<<< HEAD
         }else{
 
-=======
         }
-        else {
-            
->>>>>>> 36153efe927a2d3ad82a76f4f0bf6bbbad1a6486
-        }
+
 
         for(int i =0;i<6;i++){
 
