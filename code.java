@@ -2,7 +2,7 @@ import java.io.*;
 
 public class code {
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args){
         int x=5;
         if (x==5){
         }
