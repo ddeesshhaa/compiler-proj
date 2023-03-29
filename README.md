@@ -1,6 +1,6 @@
 # Compiler-project
 
-The Tree
+The Trees
  
 ![Untitled](https://user-images.githubusercontent.com/92648033/226732224-bda476e2-958f-4494-9296-65b0cb0a04fb.png)
 
@@ -11,3 +11,4 @@ the parse tree
 ![tree](https://user-images.githubusercontent.com/66241299/228671085-bf0a7d38-c4aa-4b8f-9012-43c5f2403145.jpg)
 
 
+![228671085-bf0a7d38-c4aa-4b8f-9012-43c5f2403145](https://user-images.githubusercontent.com/66433551/228671374-16d22771-bc41-4ec2-a634-51d02140e583.jpg)
