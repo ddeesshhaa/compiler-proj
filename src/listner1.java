@@ -24,10 +24,7 @@ public class listner1 extends JavaParserBaseListener{
         else{
             rewriter.insertAfter(ctx.getStart(),"w.write(\"block "+ this.i + " is Visited\" +\"\\n\");"  +"\n");
         }
-
-
     }
-
     @Override public void enterCompilationUnit(JavaParser.CompilationUnitContext ctx) {
         rewriter.insertBefore(ctx.getStart(),"import java.io.File;"+"\n");
         rewriter.insertBefore(ctx.getStart(),"import java.io.FileWriter;"+"\n");

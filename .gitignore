@@ -1,3 +1,3 @@
-gen/
-.idea/
-
+/gen/
+/.idea/
+/out/
