@@ -15,7 +15,8 @@ public class listner1 extends JavaParserBaseListener{
         rewriter.insertAfter(ctx.getStart(),"\n"+"//block number " + this.i+"\n");
         if(i==1) {
             rewriter.insertAfter(ctx.getStart(),"\t"+"\t"+"File output = new File(\"task2.txt\");"+"\n");
-
+            rewriter.insertAfter(ctx.getStart(),"\t"+"\t"+"output.createNewFile();"+"\n");
+            rewriter.insertAfter(ctx.getStart(),"\t"+"\t"+"FileWriter w = new FileWriter(\"task2.txt\");"+"\n");
         }
         
 
